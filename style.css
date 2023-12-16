@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background-color: #FFFFFF61;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.container-nav {
+    width: 1200px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.list-nav {
+    display: flex;
+    gap: 60px;
+    margin-right: 62px;
+    margin-left: 279px;
+}
+
+.list-item1 {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF6838;
+}
+
+.list-item {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #363853;
+}
+
+.search {
+    margin-right: 62px;
+}
+
+.btn-nav {
+    background-color: #FF7A50;
+    border: 1px solid #FF7A50;
+    border-radius: 5px;
+    padding: 14px 28px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 59px;
+}
+
+.container-header {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.header-left-text {
+    margin-top: 236px;
+}
+
+.heading-header {
+    font-family: Rubik;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #363853;
+}
+
+.heading-header :nth-child(3) {
+    color: #FF7A50;
+}
+
+.bold-header {
+    font-family: Rubik;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #363853;
+}
+
+.bold2-header {
+    color: #FF7A50;
+    font-family: Rubik;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.pragraph-header {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #363853;
+    margin-top: 23px;
+    margin-bottom: 44px;
+}
+
+.btn-header {
+    padding: 12px 21px;
+    background-color: #FF7A50;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #FF7A50;
+}
+
+a {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #363853;
+    margin-left: 30px;
+}
+
+.header-right-img {
+    display: flex;
+    margin-top: 120px;
+}
